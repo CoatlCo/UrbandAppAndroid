@@ -1,0 +1,113 @@
+    <!--/**-->
+    <!--* Filename:        strings.xml-->
+    <!--* Created:         Thu, 11 Aug 2016-->
+    <!--* Author:          Erick Rivera-->
+    <!--* Description:     This file contains implementation for main activity application.-->
+    <!--* Revisions:       Thu, 11 Aug 2016 by Erick Rivera-->
+    <!--* 					Mon, 14 Nov 2016 by Erick Rivera-->
+    <!--*-->
+    <!--&lt;!&ndash;-->
+    <!--Copyright 2014 - 2016 Centro de Investigacion y Desarrollo COATL S.A. de C.V.-->
+    <!--All rights reserved.-->
+    <!---->
+    <!--IMPORTANT: Your use of this Software is limited to those specific rights-->
+    <!--granted under the terms of a software license agreement (SLA) or-->
+    <!--non-disclosure agreement (NDA) between the user-->
+    <!--who got the software (the "Licensee") and the "Centro de Investigacion-->
+    <!--y Desarrollo COATL S.A. de C.V." (the "Licensor").-->
+    <!---->
+    <!--You may not use this Software unless you agree to abide by the terms of the-->
+    <!--License (SLA and/or NDA). The License limits your use, and you acknowledge,-->
+    <!--that the Software may not be modified, copied or distributed.-->
+    <!--Other than for the foregoing purpose, you may not use, reproduce, copy,-->
+    <!--prepare derivative works of, modify, distribute, perform, display or sell this-->
+    <!--Software and/or its documentation for any purpose.-->
+    <!---->
+    <!--YOU FURTHER ACKNOWLEDGE AND AGREE THAT THE SOFTWARE AND DOCUMENTATION ARE-->
+    <!--PROVIDED ``AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED,-->
+    <!--INCLUDING WITHOUT LIMITATION, ANY WARRANTY OF MERCHANTABILITY, TITLE,-->
+    <!--NON-INFRINGEMENT AND FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT SHALL-->
+    <!--Centro de Investigacion y Desarrollo COATL S.A. de C.V. OR ITS LICENSORS BE-->
+    <!--LIABLE OR OBLIGATED UNDER CONTRACT, NEGLIGENCE, STRICT LIABILITY,-->
+    <!--CONTRIBUTION, BREACH OF WARRANTY, OR OTHER LEGAL EQUITABLE THEORY ANY DIRECT-->
+    <!--OR INDIRECT DAMAGES OR EXPENSES INCLUDING BUT NOT LIMITED TO ANY INCIDENTAL,-->
+    <!--SPECIAL, INDIRECT, PUNITIVE OR CONSEQUENTIAL DAMAGES, LOST PROFITS OR LOST-->
+    <!--DATA, COST OF PROCUREMENT OF SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY-->
+    <!--CLAIMS BY THIRD PARTIES (INCLUDING BUT NOT LIMITED TO ANY DEFENSE THEREOF),-->
+    <!--OR OTHER SIMILAR COSTS.-->
+   <!---->
+    <!--Should you have any questions regarding your right to use this Software,-->
+    <!--contact Centro de Investigacion y Desarrollo COATL S.A. de C.V. at-->
+    <!--http://coatl.co/-->
+    <!--&ndash;&gt;-->
+    <!--*/-->
+
+<resources>
+    <string name="app_name">URBAND Basic</string>
+    <string name="log_console">URBAND Log console</string>
+    <string name="app_description">A sample application that allows you to connect with Urband</string>
+    <string name="stop">Stop</string>
+    <string name="record">Record</string>
+    <string name="findingDialaogTitle">Buscando pulseras Urband cercanas</string>
+    <string name="title_activity">Home</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="VL1_str">VL1</string>
+    <string name="VL2_str">VL2</string>
+    <string name="RGBIntensity1_str">Intensity 1</string>
+    <string name="RGBIntensity2_str">Intensity 2</string>
+    <string name="T1">T1</string>
+    <string name="T2">T2</string>
+    <string name="T3">T3</string>
+    <string name="T4">T4</string>
+    <string name="T5">T5</string>
+
+    
+    <!-- Dialogs -->
+    <!-- Preferences -->
+    <string name="pref_category">Category</string>
+    <string name="color1_title">Color 1</string>
+    <string name="color1_summary">black color by default, set by reference</string>
+    <string name="color2_title">Color 2</string>
+    <string name="color2_summary">not persistent color\nalpha slider added via code</string>
+    <string name="color3_title">Color 3</string>
+    <string name="color3_summary">picker with alpha slider</string>
+    <string name="color4_title">Color 4</string>
+    <string name="color4_summary">color set with HEX code in xml</string>
+
+
+    <!-- Alerts message -->
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Options Menu -->
+    <string name="secure_connect">Connect a device - Secure</string>
+    <string name="insecure_connect">Connect a device - Insecure</string>
+    <string name="discoverable">Make discoverable</string>
+
+    <!-- Conexion bluetooth -->
+    <string name="enlazando_dispositivos_titulo">No active devices found</string>
+    <string name="enlazando">connecting to Urband</string>
+    <string name="enlazando_sub">Please wait while we configure your Urband</string>
+    <string name="enlazando_problema">No active devices found</string>
+    <string name="enlazando_problema_sub">Sorry we did not find your Urband, please ensure your Urband is ON and nearer to your phone (less than 8 meters)</string>
+    <string name="enlazando_reintentar">Try Again</string>
+    <string name="enlazando_reintentar_automaticamente">Automatic reconexion in %1$s seconds</string>
+    <string name="enlazando_buscar">Find your Urband</string>
+    <string name="enlazando_exito">Established Connection</string>
+    <string name="enlazando_encabezado_pareados">Paired Urband</string>
+    <string name="enlazando_encabezado_nuevos">Urband Found</string>
+    <string name="enlazando_encabezado">Select your Device</string>
+
+    <!-- Activity homepanel -->
+    <string name="home_titulo">Urband Basic Example</string>
+
+</resources>

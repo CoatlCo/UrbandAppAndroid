@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingTop="30dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="¡Upss!"
+            android:id="@+id/urband_device_alert_text_failed" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Lo sentimos no se pudo conectar a urband, si cuentas con una asegurate de  que este encendida, cargada y cerca de tu dispositivo (menos 8 metros)"
+            android:id="@+id/urband_device_alert_text_failed_description"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="15dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INTENTA DE NUEVO"
+                android:id="@+id/urband_device_alert_btn_again"
+                android:textColor="#ffffff"
+                android:background="@drawable/btn_flat_red_selector"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Saltar"
+                android:id="@+id/urband_devide_alert_btn_skip"
+                android:textColor="#ffffff"
+                android:background="@drawable/btn_flat_red_selector"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

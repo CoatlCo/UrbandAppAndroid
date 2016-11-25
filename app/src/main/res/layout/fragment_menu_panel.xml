@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gris_claro"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/header_azul">
+
+        <TextView
+            android:id="@+id/txtVwURBAND"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:text="@string/home_titulo" />
+    </LinearLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:layout_weight=".16"
+                    android:text="@string/VL1_str"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/azul_claro"
+                    android:textAlignment="center"
+                    android:id="@+id/VL1_txtVw_label" />
+
+                <SeekBar
+                    android:layout_weight="0.68"
+                    android:layout_width="0dp"
+                    android:max="100"
+                    android:background="@color/gris_obscuro"
+                    android:layout_height="30sp"
+                    android:id="@+id/VL1_skBr"
+                    />
+
+                <TextView
+                    android:layout_weight=".16"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/azul_claro"
+                    android:id="@+id/VL1_txtVw" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:layout_weight=".16"
+                    android:text="@string/VL2_str"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/azul_claro"
+                    android:textAlignment="center"
+                    android:id="@+id/VL2_txtVw_label" />
+
+                <SeekBar
+                    android:layout_weight="0.68"
+                    android:layout_width="0dp"
+                    android:max="100"
+                    android:background="@color/gris_obscuro"
+                    android:layout_height="30sp"
+                    android:id="@+id/VL2_skBr"
+                    />
+
+                <TextView
+                    android:layout_weight=".16"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/azul_claro"
+                    android:id="@+id/VL2_txtVw" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:layout_weight=".16"
+                    android:text="@string/RGBIntensity1_str"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/azul_claro"
+                    android:textAlignment="center"
+                    android:id="@+id/RGBIntensity1_txtVw_label" />
+
+                <SeekBar
+                    android:layout_weight="0.68"
+                    android:layout_width="0dp"
+                    android:max="100"
+                    android:background="@color/gris_obscuro"
+                    android:layout_height="30sp"
+                    android:id="@+id/RGBIntensity1_skBr"
+                    />
+
+                <TextView
+                    android:layout_weight=".16"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/azul_claro"
+                    android:id="@+id/RGBIntensity1_txtVw" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:layout_weight=".16"
+                    android:text="@string/RGBIntensity2_str"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/azul_claro"
+                    android:textAlignment="center"
+                    android:id="@+id/RGBIntensity2_txtVw_label" />
+
+                <SeekBar
+                    android:layout_weight="0.68"
+                    android:layout_width="0dp"
+                    android:max="100"
+                    android:background="@color/gris_obscuro"
+                    android:layout_height="30sp"
+                    android:id="@+id/RGBIntensity2_skBr"
+                    />
+
+                <TextView
+                    android:layout_weight=".16"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/azul_claro"
+                    android:id="@+id/RGBIntensity2_txtVw" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:layout_weight=".16"
+                    android:text="@string/T1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/azul_claro"
+                    android:textAlignment="center"
+                    android:id="@+id/T1_txtVw" />
+
+                <SeekBar
+                    android:layout_weight="0.68"
+                    android:layout_width="0dp"
+                    android:max="255"
+                    android:background="@color/gris_obscuro"
+                    android:layout_height="30sp"
+                    android:id="@+id/seekBar1"
+                    />
+
+                <TextView
+                    android:layout_weight=".16"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/azul_claro"
+                    android:id="@+id/textView1" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <TextView
+                    android:layout_weight=".16"
+                    android:text="@string/T2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/azul_claro"
+                    android:textAlignment="center"
+                    android:id="@+id/T2_txtVw" />
+                <SeekBar
+                    android:layout_weight=".68"
+                    android:layout_width="0dp"
+                    android:max="255"
+                    android:background="@color/gris_obscuro"
+                    android:layout_height="30sp"
+                    android:id="@+id/seekBar2"
+                    />
+                <TextView
+                android:layout_weight=".16"
+                android:text=""
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/azul_claro"
+                android:id="@+id/textView2" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_weight=".16"
+                    android:text="@string/T3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/azul_claro"
+                    android:textAlignment="center"
+                    android:id="@+id/T3_txtVw" />
+                <SeekBar
+                    android:layout_weight=".68"
+                    android:layout_width="0dp"
+                    android:max="255"
+                    android:background="@color/gris_obscuro"
+                    android:layout_height="30sp"
+                    android:id="@+id/seekBar3"
+                    />
+                <TextView
+                    android:layout_weight=".16"
+                    android:text=""
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/azul_claro"
+                    android:id="@+id/textView3" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_weight=".16"
+                    android:text="@string/T4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/azul_claro"
+                    android:textAlignment="center"
+                    android:id="@+id/T4_txtVw" />
+                <SeekBar
+                    android:layout_weight=".68"
+                    android:layout_width="0dp"
+                    android:max="255"
+                    android:background="@color/gris_obscuro"
+                    android:layout_height="30sp"
+                    android:id="@+id/seekBar4"
+                />
+                <TextView
+                    android:layout_weight=".16"
+                    android:text=""
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/azul_claro"
+                    android:id="@+id/textView4" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_weight=".16"
+                    android:text="@string/T5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/azul_claro"
+                    android:textAlignment="center"
+                    android:id="@+id/T5_txtVw" />
+                <SeekBar
+                    android:layout_weight=".68"
+                    android:layout_width="0dp"
+                    android:max="255"
+                    android:background="@color/gris_obscuro"
+                    android:layout_height="30sp"
+                    android:id="@+id/seekBar5"
+                    />
+                <TextView
+                    android:layout_weight=".16"
+                    android:text=""
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/azul_claro"
+                    android:id="@+id/textView5" />
+            </TableRow>
+
+        </TableLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/azul_claro"
+        android:id="@+id/log_console_LstView" />
+
+</LinearLayout>

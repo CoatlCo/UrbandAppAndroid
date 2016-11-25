@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/gris_claro" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/header_verde">
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+	
+        
+        <dev.coatl.co.urband_basic.view.widgets.colorpicker.ColorPicker
+            android:id="@+id/color_picker"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_margin="8dp">
+        </dev.coatl.co.urband_basic.view.widgets.colorpicker.ColorPicker>
+
+
+    <LinearLayout 
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginBottom="8dp"
+    	android:orientation="horizontal"
+    	android:gravity="center">
+        
+        <LinearLayout 
+            android:id="@+id/button_cancel"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/selector_rounded_button2"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true">
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/azul_claro"
+                android:textStyle="bold"
+                android:text="CANCELAR"/>
+            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/button_accept" 
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/selector_rounded_button2"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true">
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/azul_claro"
+                android:textStyle="bold"
+                android:text="ACEPTAR"/>
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+	    
+</LinearLayout>
